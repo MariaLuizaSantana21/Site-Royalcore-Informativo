@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Princess.com</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <style>
+        
+        header{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+        }
+        .text-topo{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            padding-top: 15px;
+
+        }
+
+        .social ul{
+            display: flex;
+            flex-direction: row;
+            justify-items: center;
+            justify-content: space-around;
+            font-size: 30px;
+            list-style: none;
+        }
+        .logo{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+        }
+        .conta{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            font-size: 30px;
+            padding-right: 30px;
+            padding-top: 25px;
+
+        }
+
+        .Outifits{
+            display: grid;
+            grid-template-columns: 100px 100px 100px;
+            grid-gap: 10px;
+        }
+        .roupas {
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .roupas1 {
+           grid-column-start: 2;
+           grid-column-end: 3;
+           grid-row-start: 1;
+           grid-row-end: 2;
+        }
+        .roupas2 {
+           grid-column-start: 2;
+           grid-column-end: 3;
+           grid-row-start: 2;
+           grid-row-end: 3;
+        }
+        .roupas3 {
+           grid-column-start: 3;
+           grid-column-end: 4;
+           grid-row-start: 2;
+           grid-row-end: 3;
+        }
+        .roupas4 {
+           grid-column-start: 1;
+           grid-column-end: 2;
+           grid-row-start: 1;
+           grid-row-end: 2;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="/img/princess.png" alt = "princess logo" style= "width: 100px; border-radius: 20px;">
+            <h1 class="nome">Princess.com</h1>
+        </div>
+        <div class="text-topo">
+            <a href="/index.html"><h3>Início</h3></a>
+            <h3>Dicas</h3>
+            <a href="./noticias.html"><h3>Notícias</h3></a>
+        </div>
+        <div class="conta">
+            <a href="./mensagens.html"><i class="fa-regular fa-envelope"></i></a>
+            <a href="./conta.html"><i class="fa-regular fa-user" ></i></a>
+         </div>
+    </header>
+
+
+    <main>
+        <p>Roupas de festa:</p>
+        <section class="Outifits">
+            <section class="roupas1">
+                <img src="/img/dressfesta2.png" alt="vestido festa" style="width: 200px;">
+                <img src="/img/festa3.png" alt="vestido festa" style="width: 200px;">
+            <section class="roupas2">
+                <img src="/img/festadress4.png" alt="vestido festa" style="width: 200px;">
+                <img src="/img/festadress5.png" alt="vestido festa" style="width: 200px;">
+            </section>
+            <section class="roupas3">
+                <img src="/img/festadress6.png" alt="vestido festa" style="width: 200px;">
+                <img src="/img/festadress7.png" alt="vestido festa" style="width: 200px;">
+            </section>
+            <section class="roupas4">
+                <img src="/img/vestidofesta1.png" alt="vestido festa" style="width: 200px;">
+                <img src="/img/festadress8.png" alt="vestido festa" style="width: 200px;">
+            </section>
+        </section>
+        <p>Roupas Casuais</p>
+
+    </main>
+
+
+    <footer>
+        <section class="social">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </footer>
+</body>
+</html>
